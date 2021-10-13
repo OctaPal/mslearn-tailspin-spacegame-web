@@ -28,10 +28,4 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-schedules:
-- cron: "0 3 * * 1,2,3,4,5"
-  displayName: M to F Shedule main branch
-  branches:
-    include:
-    - main
 
